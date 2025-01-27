@@ -1,7 +1,0 @@
-
-Guang Yang
-
-Education
-
-Internship
-
