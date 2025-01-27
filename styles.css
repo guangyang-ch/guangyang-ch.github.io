@@ -19,47 +19,56 @@ header h1 {
   margin: 0;
 }
 
+nav {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #007BFF;
+}
+
 main {
   padding: 20px;
+  padding-bottom: 60px; /* Add padding to prevent content from being hidden behind the footer */
 }
 
 section {
   background: #fff;
   padding: 20px;
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 800px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-form {
-  display: flex;
-  flex-direction: column;
+h2 {
+  color: #007BFF;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 5px;
 }
 
-label {
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-input {
-  margin-bottom: 15px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-button {
-  padding: 10px;
-  background: #007BFF;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #0056b3;
+ul {
+  list-style-type: square;
+  padding-left: 20px;
 }
 
 footer {
@@ -70,4 +79,5 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+  height: 40px; /* Adjust height as needed */
 }
